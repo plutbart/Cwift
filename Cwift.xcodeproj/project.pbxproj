@@ -10,7 +10,54 @@
 		9838968922C958C400BCCBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9838968822C958C400BCCBCF /* AppDelegate.swift */; };
 		9838968B22C958C500BCCBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9838968A22C958C500BCCBCF /* Assets.xcassets */; };
 		9838968E22C958C500BCCBCF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9838968C22C958C500BCCBCF /* MainMenu.xib */; };
+		983896A422C9590600BCCBCF /* Antlr4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9838969E22C958EC00BCCBCF /* Antlr4.framework */; };
+		983896AC22C9595600BCCBCF /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896A522C9595500BCCBCF /* Code.swift */; };
+		983896AD22C9595600BCCBCF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896A622C9595500BCCBCF /* App.swift */; };
+		983896AE22C9595600BCCBCF /* Statements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896A722C9595500BCCBCF /* Statements.swift */; };
+		983896AF22C9595600BCCBCF /* ApplicationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896A822C9595500BCCBCF /* ApplicationStack.swift */; };
+		983896B022C9595600BCCBCF /* Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896A922C9595500BCCBCF /* Declaration.swift */; };
+		983896B122C9595600BCCBCF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896AA22C9595500BCCBCF /* Stack.swift */; };
+		983896B222C9595600BCCBCF /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896AB22C9595500BCCBCF /* Operation.swift */; };
+		983896B722C9598700BCCBCF /* ExpressionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896B422C9598700BCCBCF /* ExpressionListener.swift */; };
+		983896B822C9598700BCCBCF /* StatementsListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896B522C9598700BCCBCF /* StatementsListener.swift */; };
+		983896B922C9598700BCCBCF /* ExpressionAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896B622C9598700BCCBCF /* ExpressionAtom.swift */; };
+		983896C622C959BD00BCCBCF /* CwiftParserATN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896BB22C959BC00BCCBCF /* CwiftParserATN.swift */; };
+		983896C722C959BD00BCCBCF /* CwiftLexerATN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896BC22C959BC00BCCBCF /* CwiftLexerATN.swift */; };
+		983896C822C959BD00BCCBCF /* CwiftLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896BD22C959BC00BCCBCF /* CwiftLexer.swift */; };
+		983896C922C959BD00BCCBCF /* CwiftBaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896BE22C959BC00BCCBCF /* CwiftBaseListener.swift */; };
+		983896CA22C959BD00BCCBCF /* CwiftLexer.interp in Resources */ = {isa = PBXBuildFile; fileRef = 983896BF22C959BC00BCCBCF /* CwiftLexer.interp */; };
+		983896CB22C959BD00BCCBCF /* Cwift.tokens in Resources */ = {isa = PBXBuildFile; fileRef = 983896C022C959BC00BCCBCF /* Cwift.tokens */; };
+		983896CC22C959BD00BCCBCF /* Cwift.interp in Resources */ = {isa = PBXBuildFile; fileRef = 983896C122C959BC00BCCBCF /* Cwift.interp */; };
+		983896CD22C959BD00BCCBCF /* CwiftLexer.tokens in Resources */ = {isa = PBXBuildFile; fileRef = 983896C222C959BC00BCCBCF /* CwiftLexer.tokens */; };
+		983896CE22C959BD00BCCBCF /* CwiftParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896C322C959BC00BCCBCF /* CwiftParser.swift */; };
+		983896CF22C959BD00BCCBCF /* CwiftListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983896C422C959BD00BCCBCF /* CwiftListener.swift */; };
+		983896D022C959BD00BCCBCF /* Cwift.g4 in Resources */ = {isa = PBXBuildFile; fileRef = 983896C522C959BD00BCCBCF /* Cwift.g4 */; };
+		983896D322C959F100BCCBCF /* code.cwift in Resources */ = {isa = PBXBuildFile; fileRef = 983896D222C959F000BCCBCF /* code.cwift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9838969D22C958EC00BCCBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9838969622C958EB00BCCBCF /* Antlr4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Antlr4::Antlr4::Product";
+			remoteInfo = Antlr4;
+		};
+		9838969F22C958EC00BCCBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9838969622C958EB00BCCBCF /* Antlr4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Antlr4::Antlr4Tests::Product";
+			remoteInfo = Antlr4Tests;
+		};
+		983896A122C958FF00BCCBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9838969622C958EB00BCCBCF /* Antlr4.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Antlr4::Antlr4";
+			remoteInfo = Antlr4;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9838968522C958C300BCCBCF /* Cwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +66,29 @@
 		9838968D22C958C500BCCBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9838968F22C958C500BCCBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9838969022C958C500BCCBCF /* Cwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cwift.entitlements; sourceTree = "<group>"; };
+		9838969622C958EB00BCCBCF /* Antlr4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Antlr4.xcodeproj; path = "../../../Downloads/antlr4-master-2-kopia 2/runtime/Swift/Antlr4.xcodeproj"; sourceTree = "<group>"; };
+		983896A522C9595500BCCBCF /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		983896A622C9595500BCCBCF /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		983896A722C9595500BCCBCF /* Statements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statements.swift; sourceTree = "<group>"; };
+		983896A822C9595500BCCBCF /* ApplicationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStack.swift; sourceTree = "<group>"; };
+		983896A922C9595500BCCBCF /* Declaration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Declaration.swift; sourceTree = "<group>"; };
+		983896AA22C9595500BCCBCF /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		983896AB22C9595500BCCBCF /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		983896B422C9598700BCCBCF /* ExpressionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionListener.swift; sourceTree = "<group>"; };
+		983896B522C9598700BCCBCF /* StatementsListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementsListener.swift; sourceTree = "<group>"; };
+		983896B622C9598700BCCBCF /* ExpressionAtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionAtom.swift; sourceTree = "<group>"; };
+		983896BB22C959BC00BCCBCF /* CwiftParserATN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwiftParserATN.swift; sourceTree = "<group>"; };
+		983896BC22C959BC00BCCBCF /* CwiftLexerATN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwiftLexerATN.swift; sourceTree = "<group>"; };
+		983896BD22C959BC00BCCBCF /* CwiftLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwiftLexer.swift; sourceTree = "<group>"; };
+		983896BE22C959BC00BCCBCF /* CwiftBaseListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwiftBaseListener.swift; sourceTree = "<group>"; };
+		983896BF22C959BC00BCCBCF /* CwiftLexer.interp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CwiftLexer.interp; sourceTree = "<group>"; };
+		983896C022C959BC00BCCBCF /* Cwift.tokens */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cwift.tokens; sourceTree = "<group>"; };
+		983896C122C959BC00BCCBCF /* Cwift.interp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cwift.interp; sourceTree = "<group>"; };
+		983896C222C959BC00BCCBCF /* CwiftLexer.tokens */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CwiftLexer.tokens; sourceTree = "<group>"; };
+		983896C322C959BC00BCCBCF /* CwiftParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwiftParser.swift; sourceTree = "<group>"; };
+		983896C422C959BD00BCCBCF /* CwiftListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwiftListener.swift; sourceTree = "<group>"; };
+		983896C522C959BD00BCCBCF /* Cwift.g4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cwift.g4; sourceTree = "<group>"; };
+		983896D222C959F000BCCBCF /* code.cwift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = code.cwift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983896A422C9590600BCCBCF /* Antlr4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +106,10 @@
 		9838967C22C958C300BCCBCF = {
 			isa = PBXGroup;
 			children = (
+				9838969622C958EB00BCCBCF /* Antlr4.xcodeproj */,
 				9838968722C958C300BCCBCF /* Cwift */,
 				9838968622C958C300BCCBCF /* Products */,
+				983896A322C9590600BCCBCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,12 +125,82 @@
 			isa = PBXGroup;
 			children = (
 				9838968822C958C400BCCBCF /* AppDelegate.swift */,
+				983896B322C9596700BCCBCF /* App */,
+				983896BA22C9599F00BCCBCF /* Listeners */,
+				983896D122C959CF00BCCBCF /* Antlr */,
+				983896D422C959F500BCCBCF /* Resources */,
 				9838968A22C958C500BCCBCF /* Assets.xcassets */,
 				9838968C22C958C500BCCBCF /* MainMenu.xib */,
 				9838968F22C958C500BCCBCF /* Info.plist */,
 				9838969022C958C500BCCBCF /* Cwift.entitlements */,
 			);
 			path = Cwift;
+			sourceTree = "<group>";
+		};
+		9838969722C958EB00BCCBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9838969E22C958EC00BCCBCF /* Antlr4.framework */,
+				983896A022C958EC00BCCBCF /* Antlr4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983896A322C9590600BCCBCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983896B322C9596700BCCBCF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				983896A622C9595500BCCBCF /* App.swift */,
+				983896A822C9595500BCCBCF /* ApplicationStack.swift */,
+				983896A522C9595500BCCBCF /* Code.swift */,
+				983896A922C9595500BCCBCF /* Declaration.swift */,
+				983896AB22C9595500BCCBCF /* Operation.swift */,
+				983896AA22C9595500BCCBCF /* Stack.swift */,
+				983896A722C9595500BCCBCF /* Statements.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		983896BA22C9599F00BCCBCF /* Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				983896B622C9598700BCCBCF /* ExpressionAtom.swift */,
+				983896B422C9598700BCCBCF /* ExpressionListener.swift */,
+				983896B522C9598700BCCBCF /* StatementsListener.swift */,
+			);
+			path = Listeners;
+			sourceTree = "<group>";
+		};
+		983896D122C959CF00BCCBCF /* Antlr */ = {
+			isa = PBXGroup;
+			children = (
+				983896C522C959BD00BCCBCF /* Cwift.g4 */,
+				983896C122C959BC00BCCBCF /* Cwift.interp */,
+				983896C022C959BC00BCCBCF /* Cwift.tokens */,
+				983896BE22C959BC00BCCBCF /* CwiftBaseListener.swift */,
+				983896BF22C959BC00BCCBCF /* CwiftLexer.interp */,
+				983896BD22C959BC00BCCBCF /* CwiftLexer.swift */,
+				983896C222C959BC00BCCBCF /* CwiftLexer.tokens */,
+				983896BC22C959BC00BCCBCF /* CwiftLexerATN.swift */,
+				983896C422C959BD00BCCBCF /* CwiftListener.swift */,
+				983896C322C959BC00BCCBCF /* CwiftParser.swift */,
+				983896BB22C959BC00BCCBCF /* CwiftParserATN.swift */,
+			);
+			path = Antlr;
+			sourceTree = "<group>";
+		};
+		983896D422C959F500BCCBCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				983896D222C959F000BCCBCF /* code.cwift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +217,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				983896A222C958FF00BCCBCF /* PBXTargetDependency */,
 			);
 			name = Cwift;
 			productName = Cwift;
@@ -106,6 +250,12 @@
 			mainGroup = 9838967C22C958C300BCCBCF;
 			productRefGroup = 9838968622C958C300BCCBCF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9838969722C958EB00BCCBCF /* Products */;
+					ProjectRef = 9838969622C958EB00BCCBCF /* Antlr4.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9838968422C958C300BCCBCF /* Cwift */,
@@ -113,13 +263,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9838969E22C958EC00BCCBCF /* Antlr4.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Antlr4.framework;
+			remoteRef = 9838969D22C958EC00BCCBCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		983896A022C958EC00BCCBCF /* Antlr4Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = Antlr4Tests.xctest;
+			remoteRef = 9838969F22C958EC00BCCBCF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		9838968322C958C300BCCBCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983896D322C959F100BCCBCF /* code.cwift in Resources */,
 				9838968B22C958C500BCCBCF /* Assets.xcassets in Resources */,
+				983896D022C959BD00BCCBCF /* Cwift.g4 in Resources */,
+				983896CC22C959BD00BCCBCF /* Cwift.interp in Resources */,
+				983896CD22C959BD00BCCBCF /* CwiftLexer.tokens in Resources */,
 				9838968E22C958C500BCCBCF /* MainMenu.xib in Resources */,
+				983896CA22C959BD00BCCBCF /* CwiftLexer.interp in Resources */,
+				983896CB22C959BD00BCCBCF /* Cwift.tokens in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,11 +303,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983896CF22C959BD00BCCBCF /* CwiftListener.swift in Sources */,
+				983896AF22C9595600BCCBCF /* ApplicationStack.swift in Sources */,
+				983896B722C9598700BCCBCF /* ExpressionListener.swift in Sources */,
+				983896AD22C9595600BCCBCF /* App.swift in Sources */,
+				983896B822C9598700BCCBCF /* StatementsListener.swift in Sources */,
+				983896C622C959BD00BCCBCF /* CwiftParserATN.swift in Sources */,
+				983896B922C9598700BCCBCF /* ExpressionAtom.swift in Sources */,
+				983896CE22C959BD00BCCBCF /* CwiftParser.swift in Sources */,
+				983896B122C9595600BCCBCF /* Stack.swift in Sources */,
+				983896B222C9595600BCCBCF /* Operation.swift in Sources */,
+				983896B022C9595600BCCBCF /* Declaration.swift in Sources */,
+				983896AC22C9595600BCCBCF /* Code.swift in Sources */,
 				9838968922C958C400BCCBCF /* AppDelegate.swift in Sources */,
+				983896AE22C9595600BCCBCF /* Statements.swift in Sources */,
+				983896C822C959BD00BCCBCF /* CwiftLexer.swift in Sources */,
+				983896C922C959BD00BCCBCF /* CwiftBaseListener.swift in Sources */,
+				983896C722C959BD00BCCBCF /* CwiftLexerATN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983896A222C958FF00BCCBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Antlr4;
+			targetProxy = 983896A122C958FF00BCCBCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9838968C22C958C500BCCBCF /* MainMenu.xib */ = {

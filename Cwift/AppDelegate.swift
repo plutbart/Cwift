@@ -1,27 +1,23 @@
-//
-//  AppDelegate.swift
-//  Cwift
-//
-//  Created by Bartłomiej Pluta on 30/06/2019.
-//  Copyright © 2019 Bartłomiej Pluta. All rights reserved.
-//
-
 import Cocoa
+import Antlr4
+
+enum RuntimeError: Error {
+    case FileNotFoundException
+}
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    
     @IBOutlet weak var window: NSWindow!
-
-
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        let app = App(file: "code")
+        for line in app.getCode() {
+            print(line)
+        }
     }
-
+    
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        
     }
-
-
 }
-
